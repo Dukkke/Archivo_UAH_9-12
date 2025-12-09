@@ -11,7 +11,7 @@ import time
 load_dotenv()
 
 # Nueva API key
-GEMINI_API_KEY = "AIzaSyA2lW29n_lB4l1BWNljUqaf9jnIct8QI-o"
+GEMINI_API_KEY = "pon tu api"
 genai.configure(api_key=GEMINI_API_KEY)
 
 def load_documents():
@@ -81,3 +81,4 @@ if __name__ == "__main__":
     print(f"✅ COMPLETADO en {elapsed/60:.1f} minutos")
     print(f"   Embeddings: {len(embeddings)}")
     print("=" * 40)
+
